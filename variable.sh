@@ -8,5 +8,6 @@ echo "$a" #* print the variable
 VAR="another variable"
 echo "$VAR"
 
-read -p "enter your name : " NAME
+read -p "enter your name : " NAME 
+#? name is the  variable *read -p  input from user*
 echo "$NAME"
