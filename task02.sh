@@ -18,7 +18,7 @@ for ((i = 1; i < ${#array[@]}; i++)); do
     elif ((${array[i]} != $largest)) && { [[ "$secondGreatest" = "unset" ]] || [[ ${array[i]} > $secondGreatest ]]; }; then
         secondGreatest=${array[i]}
 
-    elif
+    elif 
 
         ((${array[i]} != $largest)) && { [[ "$thirdGreatest" = "unset" ]] || [[ ${array[i]} > $thirdGreatest ]]; }
     then
